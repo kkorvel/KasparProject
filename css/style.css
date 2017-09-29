@@ -1,0 +1,48 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+body {
+  background-color: #b0cbee;
+}
+
+.menu {
+  display: block;
+  position: relative;
+  margin:auto;
+  text-align: center;
+
+}
+.logo {
+  height: auto;
+  width: auto;
+  display: block;
+  position: relative;
+  margin:auto;
+  text-align: center;
+}
+#navigation {
+  text-align: center;
+}
