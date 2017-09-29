@@ -6,6 +6,8 @@ ul {
     overflow: hidden;
     background-color: #333;
     display: inline-block;
+    width: auto;
+    /*border-radius: 2px;*/
 
 }
 
@@ -19,10 +21,13 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 2px;
+    width: 250px;
+    box-shadow: 0 15px 75px rgba(56, 78, 223, 0.5);
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #353fcb;
 }
 body {
   background-color: #b0cbee;
@@ -33,6 +38,8 @@ body {
   position: relative;
   margin:auto;
   text-align: center;
+  width: auto;
+  cursor: pointer;
 
 }
 .logo {
@@ -43,6 +50,49 @@ body {
   margin:auto;
   text-align: center;
 }
+
 #navigation {
   text-align: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #3b3cd9;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 2px solid #3b3cd9;
+    background-color: rgb(84, 104, 172);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
