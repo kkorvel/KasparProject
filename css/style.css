@@ -22,7 +22,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 2px;
-    width: 250px;
+    width: 280px;
     box-shadow: 0 15px 75px rgba(56, 78, 223, 0.5);
 }
 
@@ -30,8 +30,16 @@ li a:hover {
     background-color: #353fcb;
 }
 body {
-  background-color: #b0cbee;
+  background-color: #7092bb;
+  /*background-image: url('https://mdn.mozillademos.org/files/7693/catfront.png');*/
+  /*background-image: url('https://www.highreshdwallpapers.com/wp-content/uploads/2015/01/An-Open-Road-of-Nature-1920x1080.jpg');*/
+  /*background-repeat: no-repeat;*/
+
+
+
+
 }
+
 
 .menu {
   display: block;
@@ -40,6 +48,7 @@ body {
   text-align: center;
   width: auto;
   cursor: pointer;
+
 
 }
 .logo {
@@ -84,15 +93,33 @@ div.gallery {
 div.gallery:hover {
     border: 2px solid #3b3cd9;
     background-color: rgb(84, 104, 172);
+    visibility: visible;
+    left: 60px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+/*
+    position:relative;
+    top: -100px;
+    left:-35px;
+    width:750px;
+    height:auto;
+    display:block;
+    z-index:1000;*/
+
 }
 
 div.gallery img {
     width: 100%;
     height: auto;
+    /*padding: 2px;*/
 }
 
 div.desc {
     padding: 15px;
     text-align: center;
     color: rgb(0, 0, 0);
+}
+
+.Kontakt {
+  text-align: center;
 }
