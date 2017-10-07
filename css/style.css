@@ -1,55 +1,86 @@
 
 ul {
-    list-style-type: none;
+    /*list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     display: inline-block;
-    width: auto;
+    width: auto;*/
     /*border-radius: 2px;*/
 
 }
 
 li {
-    float: left;
+    /*float: left;*/
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-radius: 2px;
-    width: 280px;
-    box-shadow: 0 15px 75px rgba(56, 78, 223, 0.5);
+
 }
 
 li a:hover {
     background-color: #353fcb;
 }
 body {
-  background-color: #7092bb;
-  /*background-image: url('https://mdn.mozillademos.org/files/7693/catfront.png');*/
-  /*background-image: url('https://www.highreshdwallpapers.com/wp-content/uploads/2015/01/An-Open-Road-of-Nature-1920x1080.jpg');*/
-  /*background-repeat: no-repeat;*/
-
-
+  background-color: #8caed7;
+  margin: auto;
+  text-align: justify;
+  font-size: auto;
 
 
 }
-
+.bodytext{
+  /*background-color: red;*/
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bodytext p {
+/*font-size: 20px;*/
+}
+.galeriiP{
+text-align: center;
+font-size: 25px;
+}
 
 .menu {
   display: block;
   position: relative;
   margin:auto;
   text-align: center;
-  width: auto;
   cursor: pointer;
+  height:
+}
+#navigation{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  /*height: 100%*/
+}
+.menu ul{
 
+}
+.menu li{
+float: left;
 
+}
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 2px;
+  width: 300px;
+
+  /*width: 100%;*/
+  box-shadow: 0 15px 75px rgba(56, 78, 223, 0.5);
 }
 .logo {
   height: auto;
@@ -58,12 +89,8 @@ body {
   position: relative;
   margin:auto;
   text-align: center;
+  margin: 0px;
 }
-
-#navigation {
-  text-align: center;
-}
-
 .fa-facebook {
     background: #3B5998;
     color: white;
@@ -84,27 +111,22 @@ body {
     opacity: 0.7;
 }
 div.gallery {
-    margin: 5px;
+    margin: 25px;
     border: 1px solid #3b3cd9;
     float: left;
     width: 180px;
+    font-size: 20px;
+}
+div.gallery p {
+  background-color: red;
 }
 
 div.gallery:hover {
     border: 2px solid #3b3cd9;
     background-color: rgb(84, 104, 172);
     visibility: visible;
-    left: 60px;
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-
-/*
-    position:relative;
-    top: -100px;
-    left:-35px;
-    width:750px;
-    height:auto;
-    display:block;
-    z-index:1000;*/
+    left: 50px;
+    box-shadow: 0 0 10px 10px rgba(0, 140, 186, 0.5);
 
 }
 
@@ -122,4 +144,9 @@ div.desc {
 
 .Kontakt {
   text-align: center;
+}
+
+.logo {
+  background-color: rgb(17, 17, 17);
+
 }
