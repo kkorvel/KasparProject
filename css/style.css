@@ -11,13 +11,13 @@ ul {
 
 }
 
-li {
+/* li {
     /*float: left;*/
-}
+} */
 
-li a {
+/* li a {
 
-}
+} */
 
 li a:hover {
     background-color: #353fcb;
@@ -63,9 +63,9 @@ font-size: 25px;
   text-align: center;
   /*height: 100%*/
 }
-.menu ul{
+/* .menu ul{
 
-}
+} */
 .menu li{
 float: left;
 
@@ -73,6 +73,7 @@ float: left;
 .menu li a {
   display: block;
   color: white;
+  /* background-color: black; */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -148,5 +149,39 @@ div.desc {
 
 .logo {
   background-color: rgb(17, 17, 17);
+
+}
+
+.asutatud p{
+  color: rgb(0, 0, 0);
+  /* padding-left: 500px; */
+  text-align: center;
+  font-size: 32px;
+}
+#tegutsenud{
+  font-size: 32px;
+  text-align: center;
+}
+.Kontakt #kontaktsuurus{
+  font-size: 32px;
+}
+
+.hinnadTable th, tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-width: medium;
+  height: 25px;
+  vertical-align: bottom;
+  text-align: center;
+  background-color: white;
+
+}
+.hinnadTable  td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-width: thin;
+  height: 65px;
+  vertical-align: bottom;
+  text-align: inherit;
 
 }
